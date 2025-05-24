@@ -2,12 +2,17 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>car</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="ronaldo@todo.todo">ronaldo</maintainer>
-  <license>TODO: License declaration</license>
+  <version>0.0.1</version>
+  <description>Autonomous Car</description>
+  <maintainer email="ronaldo.rjr@gmail.com">Ronaldo Ramos</maintainer>
+  <license>MIT</license>
 
   <depend>rclpy</depend>
+  
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>std_srvs</exec_depend>
+  <exec_depend>python3-gpiozero</exec_depend>
+  <exec_depend>python3-lgpio</exec_depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
